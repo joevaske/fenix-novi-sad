@@ -1,0 +1,159 @@
+@import '../../design-tokens/variables.scss';
+
+.main-menu {
+    font-size: 5rem;
+    color: $color-white;
+
+    &__icon {
+        opacity: .8;
+        position: absolute;
+        right: 2rem;
+        bottom: 2rem;
+        cursor: pointer;
+        z-index: 100;
+        transition: all .4s ease-in-out;
+        &.active {
+            transform: rotate(90deg);
+            opacity: .5;
+        }
+    }
+    &__phone{
+        opacity: .7;
+        position: absolute;
+        left: 2rem;
+        bottom: 2rem;
+        font-size: 4.5rem;
+        cursor: pointer;
+        z-index: 100;
+    }
+    &__links {
+        display: none;
+        position: absolute;
+        background-color: rgba($color: $color-black, $alpha: 1);
+        padding: 20rem 2rem;
+        width: 100vw;
+        height: 100vh;
+        margin: 0 auto;
+
+        font-size: 4rem;
+        text-align: center;
+        z-index: 10;
+
+        
+        & li a{
+            display: block;
+            color: rgba($color: $color-white, $alpha: 0.3); 
+            letter-spacing: 1px;
+            padding: 1rem;
+            
+
+            &:hover {
+                color: rgba($color: $color-white, $alpha: 0.7); 
+                background-color: rgba($color: $color-white, $alpha: 0.1); 
+            }
+        }
+
+        &.active {
+            display: block;
+            animation-name: menuAnimation;
+            animation-duration: 1s;
+        }
+    }
+    &__social {
+        display: none;
+    }
+}
+
+
+@keyframes menuAnimation {
+    from {       
+        opacity: 0;
+        top: -5rem;  
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+  }
+
+
+  @media only screen and (min-width: 1200px) {
+    .main-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__icon {
+            display: none;
+        }
+        &__phone {
+            display: none;
+        }
+        &__links {
+            display: block;
+            position: absolute;
+            top: 7rem;
+            left: 0;
+            background-color: rgba($color: $color-red, $alpha: 0);
+            padding: 2rem 4rem;
+            height: 6rem;
+            margin: 0 auto;
+    
+            font-size: 1.6rem;
+            text-align: center;
+            z-index: 10;
+
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+    
+            
+            & li a{
+                display: inline-block;
+                color: rgba($color: $color-white, $alpha: 0.6); 
+                letter-spacing: 1px;
+                padding: 1rem 2rem;
+                
+    
+                &:hover {
+                    color: rgba($color: $color-white, $alpha: 0.9); 
+                    background-color: rgba($color: $color-white, $alpha: 0); 
+                }
+            }
+    
+          
+        }
+        &__social {
+            display: block;
+            position: absolute;
+            top: 7rem;
+            right: 0;
+            background-color: rgba($color: $color-red, $alpha: 0);
+            padding: 2rem 4rem;
+            height: 6rem;
+            margin: 0 auto;
+    
+            font-size: 1.6rem;
+            text-align: center;
+            z-index: 10;
+
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            & li a{
+                display: inline-block;
+                color: rgba($color: $color-white, $alpha: 0.6); 
+                letter-spacing: 1px;
+                padding: 1rem 1.5rem;
+                
+    
+                &:hover {
+                    color: rgba($color: $color-white, $alpha: 0.9); 
+                    background-color: rgba($color: $color-white, $alpha: 0); 
+                }
+            }
+        }
+        
+    }
+  }
