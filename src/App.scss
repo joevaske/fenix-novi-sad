@@ -4,7 +4,10 @@
   padding: 0;
 }
 
-html { font-size: 62.5%; }
+html { 
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+ }
 
 @font-face {
   font-family: 'Avenir';
@@ -26,9 +29,10 @@ html { font-size: 62.5%; }
 
 body{
   font-family: $font-helvetica, sans-serif;
+  background-color: $color-black;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: $font-avenir;
   color: $color-white;
   letter-spacing: -1px;
@@ -40,11 +44,15 @@ h1 {
   margin: 0;
 }
 h2 {
-  font-size: 4rem;
+  font-size: 6rem;
+}
+h3 {
+  font-size: 3rem;
 }
 
 p {
   color: $color-white;
+  font-size: 1.6rem;
 }
 
 a {
@@ -59,3 +67,8 @@ img {
 ul {
   list-style-type: none;
 }
+
+.App {
+  overflow: hidden;
+}
+

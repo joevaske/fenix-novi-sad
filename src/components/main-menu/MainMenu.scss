@@ -81,7 +81,7 @@
     .main-menu {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-between;  
 
         &__icon {
             display: none;
@@ -106,11 +106,11 @@
             display: flex;
             align-items: center;
             justify-content: flex-start;
-    
-            
+
+ 
             & li a{
                 display: inline-block;
-                color: rgba($color: $color-white, $alpha: 0.6); 
+                color: rgba($color: $color-white, $alpha: 0.4); 
                 letter-spacing: 1px;
                 padding: 1rem 2rem;
                 
@@ -123,8 +123,7 @@
     
           
         }
-        &__social {
-            display: block;
+        &__social {     
             position: absolute;
             top: 7rem;
             right: 0;
@@ -133,13 +132,14 @@
             height: 6rem;
             margin: 0 auto;
     
-            font-size: 1.6rem;
+            font-size: 2rem;
             text-align: center;
             z-index: 10;
 
             display: flex;
             align-items: center;
             justify-content: flex-end;
+         
 
             & li a{
                 display: inline-block;
@@ -153,7 +153,16 @@
                     background-color: rgba($color: $color-white, $alpha: 0); 
                 }
             }
-        }
+        }    
         
     }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 50vw;
+        height: 6rem;
+        background-color: $color-black;       
+      }
+     
   }

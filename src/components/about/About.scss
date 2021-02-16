@@ -1,0 +1,51 @@
+@import '../../design-tokens/variables.scss';
+
+.about{
+    @include containerWidth;
+    margin: 0 auto;
+    padding: 10rem 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        line-height: 3rem;
+        opacity: 0.6;
+    }
+
+    &__desc{
+
+        & h2 {
+            margin: 6rem 0rem;
+        }
+
+
+        &__benefits{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+
+            .benefit{
+                padding: 3rem 2rem;
+
+                & h3 {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 3rem;
+                }
+
+                &__icon {
+                    color: $color-red;
+                    font-size: 8rem;
+                    margin-right: 1rem;
+                }
+               
+            }
+        }
+    }
+
+    &__form {
+        width: 50%;
+        
+    }
+}

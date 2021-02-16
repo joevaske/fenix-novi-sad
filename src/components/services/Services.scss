@@ -1,0 +1,154 @@
+@import '../../design-tokens/variables.scss';
+
+.services {
+    position:relative;
+    height: 260rem;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../../images/backgrounds/bg-02.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    &::before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.7;
+        background-color: $color-black;
+    }
+
+    &__container {
+        @include centerTop;
+        width: 90vw;
+        text-align: center;
+        z-index: 2;
+
+        & h2 {
+            margin: $margin-title;
+        }   
+    }
+    &__offers { 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+     
+        .offer {
+            padding: 4rem 2rem;
+            cursor: crosshair;      
+
+            &__icon {
+                color: $color-red;
+                font-size: 8rem;
+            }
+            h3{
+                margin: 2rem 0;
+                @include transitionEase;
+            }
+            p{
+                font-size: 1.6rem;
+                opacity: 0.5;
+                line-height: 2rem;
+                @include transitionEase;
+            }
+            &:hover h3{
+                transform: scale(1.1);            
+            }
+            &:hover p{
+                opacity: 0.8;           
+            }
+          
+        }
+       
+    }
+}
+
+.bb {
+    border-bottom: 1px solid $color-gray;
+}
+
+.br {
+    border-right: 1px solid $color-gray;
+}
+.b {
+    border: 1px solid $color-gray;
+}
+
+@media only screen and (min-width: 400px) { 
+    .services {
+        height: 250rem;
+       width: 100vw;
+    }
+}
+@media only screen and (min-width: 500px) { 
+    .services {
+        height: 230rem;
+         width: 100vw;
+    }
+}
+@media only screen and (min-width: 768px) { 
+    .services {
+        height: 210rem;
+         width: 100vw;
+    }
+}
+@media only screen and (min-width: 1200px) { 
+    .services {
+        height: 115rem;
+        width: 100vw;
+        &__offers {
+            grid-template-columns: repeat(3, 1fr);
+
+            &__container {
+                @include centerTop;
+                @include containerWidth;
+                text-align: center;
+                z-index: 2;
+        
+                & h2 {
+                    margin: $margin-title;
+                }   
+            }
+
+            .offer {
+                padding: 4rem 2rem;
+                cursor: crosshair;      
+    
+                &__icon {
+                    color: $color-red;
+                    font-size: 8rem;
+                }
+                h3{
+                    margin: 2rem 0;
+                    @include transitionEase;
+                }
+                p{
+                    font-size: 1.6rem;
+                    opacity: 0.5;
+                    line-height: 2rem;
+                    @include transitionEase;
+                }
+                &:hover h3{
+                    transform: scale(1.1);            
+                }
+                &:hover p{
+                    opacity: 0.8;           
+                }
+              
+            }
+      
+        }
+    }
+ 
+
+}
+@media only screen and (min-width: 1300px) { 
+    .services {
+        height: 100rem;
+         width: 100vw;
+    }
+}
