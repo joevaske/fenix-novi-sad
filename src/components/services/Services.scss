@@ -2,7 +2,7 @@
 
 .services {
     position:relative;
-    height: 260rem;
+    height: 270rem;
     width: 100vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../../images/backgrounds/bg-02.jpg');
     background-position: center;
@@ -100,19 +100,18 @@
     .services {
         height: 115rem;
         width: 100vw;
+        &__container {
+            @include centerTop;
+            @include containerWidth;
+            text-align: center;
+            z-index: 2;
+    
+            & h2 {
+                margin: $margin-title;
+            }   
+        }
         &__offers {
             grid-template-columns: repeat(3, 1fr);
-
-            &__container {
-                @include centerTop;
-                @include containerWidth;
-                text-align: center;
-                z-index: 2;
-        
-                & h2 {
-                    margin: $margin-title;
-                }   
-            }
 
             .offer {
                 padding: 4rem 2rem;
@@ -143,12 +142,25 @@
       
         }
     }
- 
+
+    .bb {
+        border-bottom: 1px solid $color-gray !important;
+    }
+    
+    .br {
+        border-right: 1px solid $color-gray !important;
+    }
+    .b {
+        border: none;
+    }
+   
 
 }
 @media only screen and (min-width: 1300px) { 
     .services {
         height: 100rem;
          width: 100vw;
+         
     }
+    
 }

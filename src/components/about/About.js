@@ -2,13 +2,13 @@ import React from 'react';
 import { FaHeartbeat } from 'react-icons/fa';
 import { GiSlashedShield, GiStrong } from 'react-icons/gi';
 
-
+import AboutForm from './AboutForm'
 
 import './About.scss';
 
 const About = () => {
     return (
-        <div className="about">
+        <div className="about" id="about">
             <div className="about__desc">
                 <h2>Hi We are the best BJJ team</h2>
                 <p>
@@ -17,7 +17,7 @@ const About = () => {
                 <div className="line" />
                 <div className="about__desc__benefits">
                     <div className="benefit">
-                        <h3><FaHeartbeat className="benefit__icon" />Enviable physical condition</h3>
+                        <h3><FaHeartbeat className="benefit__icon" />Physical condition</h3>
                         <p>BJJ fighters are one of the most superior and most trained athletes of today!</p>
                     </div>
                     <div className="benefit">
@@ -25,13 +25,13 @@ const About = () => {
                         <p>You will be able to defend yourself in any situation and whenever needed!</p>
                     </div>
                     <div className="benefit">
-                        <h3><GiStrong className="benefit__icon" />High level of self-confidence</h3>
+                        <h3><GiStrong className="benefit__icon" />Self-confidence</h3>
                         <p>Which will significantly help you in everyday life!</p>
                     </div>
                 </div>
             </div>
             <div className="about__form">
-                <h3>Form goes here</h3>
+                <AboutForm />
             </div>
 
         </div>

@@ -17,7 +17,7 @@ import './Services.scss'
 
 function Service() {
     return (
-        <div className="services">
+        <div className="services" id="services">
             <div className="services__container">
                 <h2>Hot Offers</h2>
 

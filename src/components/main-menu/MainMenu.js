@@ -1,4 +1,7 @@
 import React, { useState } from 'react'
+import { HashLink as Link } from 'react-router-hash-link';
+
+
 import { CgMenuRightAlt } from 'react-icons/cg'
 import { ImWhatsapp } from 'react-icons/im'
 import { FaInstagram, FaViber } from 'react-icons/fa'
@@ -21,8 +24,9 @@ const MainMenu = ({ isSticky }) => {
             </div>
 
             <ul className={`main-menu__links ${menuToggle === true ? "active" : ""} ${isSticky}`} >
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
+                <li><Link to="/#header">Home</Link></li>
+                <li><Link to="/#about">About us</Link></li>
+                <li><Link to="/#services">Services</Link></li>
                 <li><a href="#">News</a></li>
                 <li><a href="#">Gallery</a> </li>
                 <li><a href="#">Contact</a> </li>

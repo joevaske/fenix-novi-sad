@@ -1,11 +1,12 @@
 @import '../../design-tokens/variables.scss';
 
 .about{
-    @include containerWidth;
+    width: 80vw;
     margin: 0 auto;
     padding: 10rem 0;
 
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 
     p {
@@ -22,11 +23,11 @@
 
         &__benefits{
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(1, 1fr);
 
 
             .benefit{
-                padding: 3rem 2rem;
+                padding: 2rem 1rem;
 
                 & h3 {
                     display: flex;
@@ -45,7 +46,45 @@
     }
 
     &__form {
-        width: 50%;
+        width: 100%;
+        margin: 0 auto;  
         
+    }
+}
+
+@media only screen and (min-width: 768px) { 
+    .about{
+        
+        &__form {
+            max-width: 40rem;
+            margin: 0 auto;  
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .about{ 
+       
+        &__desc{
+            &__benefits{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+    
+    
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .about{ 
+        flex-direction: row;
+        &__desc{
+            &__benefits{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+    
+    
+            }
+        }
     }
 }

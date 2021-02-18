@@ -15,7 +15,7 @@ const Header = () => {
     }, []);
 
     return (
-        <div className="header">
+        <div className="header" id="header">
             <div className="logo">
                 <img src={logo} alt="Fenix Team Logo" />
             </div>

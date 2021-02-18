@@ -1,3 +1,5 @@
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -53,6 +55,8 @@ h3 {
 p {
   color: $color-white;
   font-size: 1.6rem;
+  letter-spacing: 1px;
+  line-height: 2rem;
 }
 
 a {
