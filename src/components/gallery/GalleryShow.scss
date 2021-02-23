@@ -1,0 +1,48 @@
+@import '../../design-tokens/variables.scss';
+.gallery {
+    padding: 10rem 0;
+
+    & h2 {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    &__container{
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        &__img {
+            cursor: pointer;
+            opacity: 0.3;
+            @include transitionEase;
+            &:hover {
+                opacity: 0.7;
+
+            }
+        }
+
+    }
+    
+}
+
+@media only screen and (min-width: 768px) { 
+    .gallery {
+      
+        &__container{
+            grid-template-columns: repeat(3, 1fr);
+
+        }
+        
+    }
+}
+@media only screen and (min-width: 1200px) { 
+    .gallery {
+      
+        &__container{
+            grid-template-columns: repeat(4, 1fr);
+
+        }
+        
+    }
+}

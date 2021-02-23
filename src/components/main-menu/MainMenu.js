@@ -27,16 +27,16 @@ const MainMenu = ({ isSticky }) => {
                 <li><Link to="/#header">Home</Link></li>
                 <li><Link to="/#about">About us</Link></li>
                 <li><Link to="/#services">Services</Link></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Gallery</a> </li>
-                <li><a href="#">Contact</a> </li>
+                <li><Link to="/#services">News</Link></li>
+                <li><Link to="/#gallery">Gallery</Link> </li>
+                <li><Link to="/#gallery">Contact</Link> </li>
             </ul>
             <ul className={`main-menu__social ${isSticky}`} >
-                <li><a href="#"><FaInstagram /></a></li>
-                <li><a href="#"><RiFacebookBoxFill /></a></li>
-                <li><a href="#"><ImWhatsapp /></a></li>
-                <li><a href="#"><FaViber /></a> </li>
-                <li><a href="#"><RiPhoneLine /></a> </li>
+                <li><Link to="/#gallery"><FaInstagram /></Link></li>
+                <li><Link to="/#gallery"><RiFacebookBoxFill /></Link></li>
+                <li><Link to="/#gallery"><ImWhatsapp /></Link></li>
+                <li><Link to="/#gallery"><FaViber /></Link></li>
+                <li><Link to="/#gallery"><RiPhoneLine /></Link></li>
             </ul>
         </nav>
     )

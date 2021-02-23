@@ -1,0 +1,119 @@
+@import '../../design-tokens/variables.scss';
+
+.prices {
+    padding: 10rem 0;
+    text-align: center;
+   
+    & h2 {
+        margin-bottom: 5rem;
+    }
+
+    &__container{
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+}
+
+.price{
+    background-color: rgba($color: $color-white, $alpha: 0.1);
+    margin-bottom: 3rem;
+    padding: 2rem 1rem;
+    cursor: pointer;
+      
+      position: relative;
+
+    &::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 98%;
+        height: 99%;
+        z-index: -1;
+    }
+
+    &:hover {
+          
+        &::after{
+            border: 4px solid rgba($color: $color-red, $alpha: 0.5);
+        }
+    }
+
+    &__heading{
+        padding: 1rem;
+        background-color: $color-red;
+
+    }
+
+    &__price{
+        padding: 1rem;
+        background-color: rgba($color: $color-gray, $alpha: 1.0);
+
+        & h2 {
+            margin-bottom: 0;
+        }
+    }
+
+    &__features{
+        padding: 3rem;
+        color: $color-white;
+        font-size: 2rem;
+
+        & li{
+            margin-bottom: 2rem;
+            padding: 1rem;
+            
+            &:not(:last-child){
+                border-bottom: 1px solid rgba($color: $color-red, $alpha: 0.3);
+            }
+
+        }
+       
+    }
+
+    &:nth-child(2){
+        background-color: rgba($color: $color-white, $alpha: 0.4);
+    }
+   
+}
+
+@media only screen and (min-width: 768px) { 
+    .prices {
+        &__container{
+            width: 90vw;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+
+        }
+
+    }
+    .price {
+        min-width: 30%;
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) { 
+
+    .prices {
+        &__container{
+            width: 80vw;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+    
+        }
+    
+    }
+    .price {
+        min-width: 25%;
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+    
+    }

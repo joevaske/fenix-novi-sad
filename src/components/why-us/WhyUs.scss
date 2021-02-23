@@ -44,7 +44,94 @@
             position:absolute;
             bottom:0px;
         }
+    } 
+}
+
+@media only screen and (min-width: 500px) { 
+    .why-us {
+            &__image{
+           
+                height: 30rem; 
+            }   
+
     }
 
-  
+}
+
+@media only screen and (min-width: 768px) { 
+    .why-us {
+            &__image{
+           
+                height: 40rem; 
+            }   
+
+    }
+
+}
+@media only screen and (min-width: 880px) { 
+    .why-us {
+            &__image{
+           
+                height: 50rem; 
+            }   
+
+    }
+
+}
+
+@media only screen and (min-width: 992px) { 
+    .why-us {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+            &__image{
+                height: auto;
+                img{
+                    width: 55rem;
+                    right: -10rem;
+                    bottom: 4rem;
+                }
+                
+            }   
+    }
+
+}
+@media only screen and (min-width: 1200px) { 
+    .why-us {
+            &__image{
+                img{
+                    width: 65rem;
+                    right: -15rem;
+                    bottom: 4rem;
+                }
+                
+            }   
+    }
+
+}
+
+@media only screen and (min-width: 1400px) { 
+    .why-us {
+            &__image{
+                img{
+                    width: 70rem;
+                    right: -15rem;
+                    bottom: 4rem;
+                }
+                
+            }   
+    }
+
+}
+@media only screen and (min-width: 1700px) { 
+    .why-us {
+            &__image{
+                img{
+                    width: 90rem;
+                    right: -15rem;
+                    bottom: 0rem;
+                }
+                
+            }   
+    }
+
 }
