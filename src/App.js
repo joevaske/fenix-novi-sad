@@ -12,6 +12,7 @@ import GalleryShow from './components/gallery/GalleryShow';
 import Prices from './components/prices/Prices';
 import Coaches from './components/coaches/Coaches';
 import ToTop from './components/to-top/ToTop'
+import Footer from './components/footer/Footer';
 
 
 
@@ -33,7 +34,7 @@ function App() {
 
 
 
-
+        <Footer />
       </div>
     </Router>
 

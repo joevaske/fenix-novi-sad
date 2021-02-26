@@ -1,0 +1,42 @@
+@import '../../design-tokens/variables.scss';
+
+
+.our-contacts{
+    text-align: center;
+    padding: 2rem;
+
+    & h3 {
+        margin-bottom: 3rem;
+    }
+
+    &__item{
+        border-top: 2px solid $color-gray;
+        padding: 1rem;
+
+        & h4 {
+            text-align: left;
+            margin-bottom: 1rem;         
+        }
+
+        &:hover {
+            background-color: rgba($color: $color-white, $alpha: 0.3);
+        }
+
+
+        &-head, &-body {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &-body{
+            opacity: 0.6;
+        }
+    }
+    &__item:last-child {
+        border-bottom: 2px solid $color-gray;
+    }
+
+
+
+
+}

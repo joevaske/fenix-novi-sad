@@ -1,0 +1,47 @@
+@import '../../design-tokens/variables.scss';
+
+.footer{
+    padding-top: 10rem;
+    border-top: 1px solid $color-gray;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    background-color: $color-white;
+    padding: 3rem;
+    margin-top: 10rem;
+    border-top: 2px solid $color-gray;
+
+    p {
+        color: $color-black;
+    }
+    
+}
+@media only screen and (min-width: 600px) {
+    .footer-middle {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .footer-middle {
+        width: 80%;
+        margin: 0 auto;
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+     
+     }
+ }
+
+ @media only screen and (min-width: 1400px) {
+    .footer-middle {
+        
+         grid-template-columns: repeat(3, 1fr);
+         grid-auto-rows: 100px;
+  
+     }
+ }
+
+
+

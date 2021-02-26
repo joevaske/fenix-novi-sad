@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
 
 
+
 import { CgMenuRightAlt } from 'react-icons/cg'
 import { ImWhatsapp } from 'react-icons/im'
-import { FaInstagram, FaViber } from 'react-icons/fa'
-import { RiFacebookBoxFill, RiPhoneLine } from 'react-icons/ri'
 
 import './MainMenu.scss'
+import SocialLinks from './SocialLinks';
 
 
 const MainMenu = ({ isSticky }) => {
@@ -32,11 +32,7 @@ const MainMenu = ({ isSticky }) => {
                 <li><Link to="/#gallery">Contact</Link> </li>
             </ul>
             <ul className={`main-menu__social ${isSticky}`} >
-                <li><Link to="/#gallery"><FaInstagram /></Link></li>
-                <li><Link to="/#gallery"><RiFacebookBoxFill /></Link></li>
-                <li><Link to="/#gallery"><ImWhatsapp /></Link></li>
-                <li><Link to="/#gallery"><FaViber /></Link></li>
-                <li><Link to="/#gallery"><RiPhoneLine /></Link></li>
+                <SocialLinks />
             </ul>
         </nav>
     )

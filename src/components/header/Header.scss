@@ -25,6 +25,11 @@
             color: $color-red;
         }
     }
+    &__subquote {
+        font-size: 15rem !important;
+        color: rgba($color: $color-white, $alpha: 0.3);
+        margin-top: 7rem;
+    }
     
 }
 

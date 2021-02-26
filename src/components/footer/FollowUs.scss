@@ -1,0 +1,70 @@
+@import '../../design-tokens/variables.scss';
+
+.follow-us {  
+
+
+    margin: 2rem;
+
+    & h3{
+        margin-bottom: 2rem;
+    }
+    
+    
+  
+    &__social {     
+       &  ul  {
+            list-style: none;        
+        }
+
+        background-color: rgba($color: $color-red, $alpha: 0);
+        padding: 2rem;
+        height: 6rem;
+        margin: 0 auto;
+
+        font-size: 2rem;
+        text-align: center;
+        z-index: 10;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+     
+
+        & li a{
+            display: inline-block;
+            color: rgba($color: $color-white, $alpha: 0.6); 
+            letter-spacing: 1px;
+            padding: 1rem 1.5rem;
+            font-size: 4rem;
+            
+
+            &:hover {
+                color: rgba($color: $color-white, $alpha: 0.9); 
+                background-color: rgba($color: $color-white, $alpha: 0); 
+            }
+        }
+    }  
+}    
+
+@media only screen and (min-width: 1400px) { 
+
+    .follow-us {
+        grid-column: 3 / 4;
+        grid-row: 4 / 5;
+    }
+   
+}
+
+
+@media only screen and (max-width: 420px) { 
+
+    .follow-us {
+        &__social {    
+            & li a{
+              
+                font-size: 2.7rem;
+        }
+    }
+}
+   
+}
