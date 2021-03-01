@@ -26,9 +26,10 @@
         }
     }
     &__subquote {
-        font-size: 15rem !important;
+        font-size: 9rem !important;
+        line-height: 7rem;;
         color: rgba($color: $color-white, $alpha: 0.3);
-        margin-top: 7rem;
+        margin-top: 17rem;
     }
     
 }
@@ -68,6 +69,12 @@
             left:50%;
             transform: translate(-50%, -50%);
         
+        }
+
+        &__subquote {
+            font-size: 15rem !important;
+            color: rgba($color: $color-white, $alpha: 0.3);
+            margin-top: 7rem;
         }
         
     }

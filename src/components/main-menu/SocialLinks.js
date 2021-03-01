@@ -8,12 +8,12 @@ import { RiFacebookBoxFill, RiPhoneLine } from 'react-icons/ri'
 const SocialLinks = () => {
     return (
         <>
-            <li><a target="_blank" href="https://www.instagram.com/fenix_bjjacademy/"><FaInstagram /></a></li>
-            <li><a target="_blank" href="https://www.facebook.com/FenixBJJAcademy"><RiFacebookBoxFill /></a></li>
+            <li><a href="https://www.instagram.com/fenix_bjjacademy/"><FaInstagram /></a></li>
+            <li><a href="https://www.facebook.com/FenixBJJAcademy"><RiFacebookBoxFill /></a></li>
             <li><a
                 href="https://wa.me/381638218306"
                 rel="noopener noreferrer"
-                target="_blank"
+
             ><ImWhatsapp /></a></li>
             <li><a href="+381638218306"><FaViber /></a></li>
             <li><a href="tel:00381638218306"><RiPhoneLine /></a></li>
