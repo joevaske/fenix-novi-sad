@@ -21,7 +21,11 @@ const Header = () => {
             </div>
             <MainMenu isSticky={`${offset > 200 ? 'sticky' : ''}`} />
             <h1 className="header__quote">Belive in <span>Yourself</span></h1>
-            <h4 className="header__quote header__subquote">never about to  quit</h4>
+            {/*
+            
+              <h4 className="header__quote header__subquote">never about to quit</h4>
+            */}
+
         </div>
     )
 }
