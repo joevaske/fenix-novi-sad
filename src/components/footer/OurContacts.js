@@ -41,8 +41,8 @@ const OurContacts = () => {
                             <h4>{oc.trainingPlace}</h4>
                         </div>
                         <div className="our-contacts__item-body">
-                            <h4>{oc.address}</h4>
-                            <h4>{oc.phone}</h4>
+                            <p>{oc.address}</p>
+                            <p>{oc.phone}</p>
                         </div>
 
                     </div>

@@ -30,13 +30,36 @@
 
         &-body{
             opacity: 0.6;
+            display: flex;
+            flex-direction: column;
+            
+            p {
+                text-align: center;
+            }
+           
         }
     }
     &__item:last-child {
         border-bottom: 2px solid $color-gray;
     }
 
+}
 
+@media only screen and (min-width: 452px) {
+    .our-contacts{
+        
+        &__item{
+            &-body{
+       
 
-
+                flex-direction: row;
+                
+                p {
+                    text-align: center;
+                }
+               
+            }
+        }
+      
+    }
 }
