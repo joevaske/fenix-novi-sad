@@ -1,0 +1,31 @@
+@import '../../design-tokens/variables.scss';
+
+.pagination {
+    width: 90vw;
+    margin: 2rem auto;
+    padding: 1rem 0;
+
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 5rem;
+        justify-content: center;
+
+      
+    }
+    &__link{      
+        padding: 1.5rem;
+        border: 1px solid $color-white;
+        color: $color-white;
+        cursor: pointer;
+    }
+    &__item:not(:last-child){
+        margin-right: 1rem;
+    }
+
+    &__item {
+        & .active {
+            background-color: rgba($color: $color-red, $alpha: 0.6);
+        }
+    }
+}
