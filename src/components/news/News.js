@@ -17,7 +17,7 @@ const News = () => {
 
     useEffect(() => {
         const fetchPosts = async () => {
-            const res = await axios.get('http://fenixmma.com/wp-json/wp/v2/posts/?_embed&per_page=24');
+            const res = await axios.get('http://fenixmma.com/wp-json/wp/v2/posts/?_embed&per_page=24/');
             setPosts(res.data);
         };
         fetchPosts();
