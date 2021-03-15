@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'
 import axios from 'axios'
 
 import './News.scss'
@@ -14,7 +13,7 @@ const News = () => {
 
     const [posts, setPosts] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const [postsPerPage, setPostsPerPage] = useState(3);
+    const postsPerPage = 3;
 
     useEffect(() => {
         const fetchPosts = async () => {
@@ -44,7 +43,6 @@ const News = () => {
                 totalPosts={posts.length}
                 paginate={paginate} />
 
-            <Link to="" ><h3>Archive News</h3></Link>
         </div>
     );
 

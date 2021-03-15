@@ -11,11 +11,12 @@ import Locations from './components/locations/Locations';
 import Prices from './components/prices/Prices';
 import ToTop from './components/to-top/ToTop'
 import LoadingScreen from './components/loading/LoadingScreen';
-import News from './components/news/News';
+
 
 const Services = lazy(() => import('./components/services/Services'));
 const GalleryShow = lazy(() => import('./components/gallery/GalleryShow'));
 const Coaches = lazy(() => import('./components/coaches/Coaches'));
+const News = lazy(() => import('./components/news/News'));
 const Footer = lazy(() => import('./components/footer/Footer'));
 function App() {
 
