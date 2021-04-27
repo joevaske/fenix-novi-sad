@@ -19,6 +19,7 @@ const SingleNews = ({ items, activeNewsPage }) => {
     fetchPosts();
     //  setSinglePost(rendered)
     console.log(singlePost);
+    console.log(rendered);
 
     singlePost.map((item) => setRendered(item.content.rendered));
   };
