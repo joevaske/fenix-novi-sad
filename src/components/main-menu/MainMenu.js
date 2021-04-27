@@ -34,13 +34,13 @@ const MainMenu = ({ isSticky }) => {
           <Link to='/#services'>Usluge</Link>
         </li>
         <li>
-          <Link to='/#news'>Novosti</Link>
+          <Link to='/#schedule'>Treninzi</Link>
         </li>
         <li>
           <Link to='/#gallery'>Galerija</Link>{' '}
         </li>
         <li>
-          <Link to='/#gallery'>Kontakt</Link>{' '}
+          <Link to='/#footer'>Kontakt</Link>{' '}
         </li>
       </ul>
       <ul className={`main-menu__social ${isSticky}`}>

@@ -117,7 +117,7 @@ const Schedule = () => {
     setShedule(sheduleNS);
   } else if (schedule)
     return (
-      <div className='schedule'>
+      <div className='schedule' id='schedule'>
         <h2>Raspored treninga</h2>
         <ScheduleSelector setBl={setBL} setNs={setNS} setVg={setVG} />
         <ScheduleView schedule={schedule} active={activeClass} town={town} />
