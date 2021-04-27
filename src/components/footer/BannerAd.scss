@@ -1,40 +1,35 @@
 @import '../../design-tokens/variables.scss';
 
+.banner-ad {
+  width: 35rem;
+  height: 28rem;
+  background-color: none;
+  text-align: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 2px solid $color-gray;
+  cursor: pointer;
 
-.banner-ad{
-    width: 35rem;
-    height: 22rem;
-    background-color: none;
-    text-align: center;
-    margin: 2rem auto;
-    padding: 2rem;
-    border: 2px solid $color-gray;
-    cursor: pointer;
+  &:hover {
+    background-color: rgba($color: $color-white, $alpha: 0.3);
+  }
 
-    &:hover {
-        background-color: rgba($color: $color-white, $alpha: 0.3);
+  &__head {
+    font-size: 3rem;
+
+    &__price {
+      color: $color-red;
+      font-size: 5rem;
     }
+  }
 
-    &__head {
-       
-        font-size: 3rem;
+  &__title {
+    font-size: 2rem;
+    opacity: 0.6;
+    margin-bottom: 0.5rem;
+  }
 
-        &__price{
-            color: $color-red;
-            font-size: 5rem;
-        
-        }
-    }
-
-    &__title {
-        font-size: 2rem;
-        opacity: 0.6;
-        margin-bottom: 0.5rem;
-    }
-
-    &__code {
-        opacity: 0.5;
-    }
-
-    
+  &__code {
+    opacity: 0.5;
+  }
 }

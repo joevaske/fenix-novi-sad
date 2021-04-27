@@ -2,40 +2,59 @@ import React from 'react';
 import { FaHeartbeat } from 'react-icons/fa';
 import { GiSlashedShield, GiStrong } from 'react-icons/gi';
 
-import AboutForm from './AboutForm'
+import AboutForm from './AboutForm';
 
 import './About.scss';
 
 const About = () => {
-    return (
-        <div className="about" id="about">
-            <div className="about__desc">
-                <h2>Hi We are the best BJJ team</h2>
-                <p>
-                    FENIX BJJ Academy provides a superior ambience and conditions in which people, regardless of previous experience, age or current fitness, learn martial arts, and above all, Brazilian Jiu Jitsu (BJJ), Grappling and MMA. We also provide customized Self-Defense programs as part of Brazilian Jiu Jitsu.
-                </p>
-                <div className="line" />
-                <div className="about__desc__benefits">
-                    <div className="benefit">
-                        <h3><FaHeartbeat className="benefit__icon" />Physical condition</h3>
-                        <p>BJJ fighters are one of the most superior and most trained athletes of today!</p>
-                    </div>
-                    <div className="benefit">
-                        <h3><GiSlashedShield className="benefit__icon" />Self-defense</h3>
-                        <p>You will be able to defend yourself in any situation and whenever needed!</p>
-                    </div>
-                    <div className="benefit">
-                        <h3><GiStrong className="benefit__icon" />Self-confidence</h3>
-                        <p>Which will significantly help you in everyday life!</p>
-                    </div>
-                </div>
-            </div>
-            <div className="about__form">
-                <AboutForm />
-            </div>
-
+  return (
+    <div className='about' id='about'>
+      <div className='about__desc'>
+        <h2>Dobrodošli </h2>
+        <p>
+          Fenix tim pruža vrhunski ambijent i uslove u kojima ljudi, bez obzira
+          na prethodno iskustvo, godine ili kondiciju, uče principe borbe, pre
+          svega brazilski džiudžicu, grepling i MMA.
+        </p>
+        <p>
+          Takođe nudimo prilagođene programe samoodbrane u okviru brazilske
+          džiudžice.
+        </p>
+        <div className='line' />
+        <div className='about__desc__benefits'>
+          <div className='benefit'>
+            <h3>
+              <FaHeartbeat className='benefit__icon' />
+              Kondicija
+            </h3>
+            <p>
+              BJJ borci važe za jedne od najsuperiornijih i najobučenijih boraca
+              današnjice!
+            </p>
+          </div>
+          <div className='benefit'>
+            <h3>
+              <GiSlashedShield className='benefit__icon' />
+              Samoodbrana
+            </h3>
+            <p>Sposobni su da se odbrane u svakoj situaciji!</p>
+          </div>
+          <div className='benefit'>
+            <h3>
+              <GiStrong className='benefit__icon' />
+              Samopouzdanje
+            </h3>
+            <p>
+              Što u velikoj meri poboljšava kvalitet života na svim nivoima!
+            </p>
+          </div>
         </div>
-    )
-}
+      </div>
+      <div className='about__form'>
+        <AboutForm />
+      </div>
+    </div>
+  );
+};
 
-export default About
+export default About;
