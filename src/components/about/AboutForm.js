@@ -1,9 +1,30 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 import './AboutForm.scss';
 
 const AboutForm = () => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_2ucvsjp',
+        'template_653it8o',
+        e.target,
+        'user_hlIIfb6gy0PVZsTBKatDQ'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
-    <form className='form'>
+    <form className='form' onSubmit={sendEmail}>
       <h3>Kontaktirajte nas</h3>
       <label className='label' htmlFor='q_name'>
         Ime i prezime

@@ -26,11 +26,11 @@
     }
 
     p {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 4rem;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 2rem;
       font-weight: 200;
       opacity: 0.7;
-      line-height: 4.5rem;
+      line-height: 2.5rem;
       margin-top: 2rem;
     }
   }
@@ -80,6 +80,14 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 4rem;
+        font-weight: 200;
+        opacity: 0.7;
+        line-height: 4.5rem;
+        margin-top: 2rem;
+      }
     }
 
     &__subquote {
