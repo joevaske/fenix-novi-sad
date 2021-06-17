@@ -72,7 +72,7 @@ function Service() {
             <GiPointing className='offer__icon' />
             <h3>NAPREDNA GRUPA</h3>
             <p>
-              Rad u naprednoj grupi čine svakodnevni treninzi u trajanju od dva
+              Rad u naprednoj grupi čine svakodnevni treninzi u trajanju do dva
               časa efektivno. Uz pravilan odnos prema radu u ovoj grupi, uspeh u
               brazilskoj džiudžici je zagarantovan!
             </p>
@@ -82,7 +82,7 @@ function Service() {
             <h3>PRIVATNI ČASOVI</h3>
             <p>
               Garantovano najbrži napredak! Kontaktirajte nas i zakažite
-              privatni čas!
+              privatni čas!zarn build
             </p>
           </div>
         </div>

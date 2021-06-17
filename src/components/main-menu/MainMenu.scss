@@ -25,6 +25,9 @@
     font-size: 4.5rem;
     cursor: pointer;
     z-index: 100;
+    & a {
+      color: rgba($color: $color-white, $alpha: 1);
+    }
   }
   &__links {
     display: none;

@@ -16,7 +16,7 @@ export const coaches = [
   },
   {
     id: 2,
-    name: 'Djordje Vasić',
+    name: 'Đorđe Vasić',
     src: coach2,
     role: 'Osnivač, Glavni Trener',
     insta: 'https://www.instagram.com/fenix_bjjacademy/',

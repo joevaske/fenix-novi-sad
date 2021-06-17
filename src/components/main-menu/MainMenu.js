@@ -16,7 +16,13 @@ const MainMenu = ({ isSticky }) => {
         <CgMenuRightAlt onClick={() => setToggle(!menuToggle)} />
       </div>
       <div className='main-menu__phone'>
-        <ImWhatsapp />
+        <a
+          href='https://wa.me/381638218306'
+          rel='noopener noreferrer'
+          aria-label='Whatsapp'
+        >
+          <ImWhatsapp />
+        </a>
       </div>
 
       <ul
