@@ -1,5 +1,6 @@
 import React from 'react';
-import { GrDiamond } from 'react-icons/gr';
+import { AiOutlineHistory } from 'react-icons/ai';
+import { GiPriceTag, GiSportMedal } from 'react-icons/gi';
 import whyUsImage from '../../images/djordje-stefan.png';
 
 import './WhyUs.scss';
@@ -24,21 +25,21 @@ const WhyUs = () => {
         <div className='line'></div>
         <div className='why-us__container__row'>
           <h3>
-            <GrDiamond className='icon' />
+            <AiOutlineHistory className='icon' />
             10 GODINA POSTOJANJA
           </h3>
           <p>Fenix akademija je osnovana 2011. godine.</p>
         </div>
         <div className='why-us__container__row'>
           <h3>
-            <GrDiamond className='icon' />
+            <GiPriceTag className='icon' />
             POVOLJNA CENA
           </h3>
           <p>Za samo 25 EUR dobijate 20-25 treninga mesečno.</p>
         </div>
         <div className='why-us__container__row'>
           <h3>
-            <GrDiamond className='icon' />
+            <GiSportMedal className='icon' />
             SPORTSKA ATMOSFERA
           </h3>
           <p>

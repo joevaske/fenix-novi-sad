@@ -11,11 +11,11 @@ const Schedule = () => {
 
   const scheduleBL = [
     {
-      name: 'Monday',
+      name: 'Ponedeljak',
       times: [{ name: 'Odrasli BJJ', time: '20:00 - 21:30' }],
     },
     {
-      name: 'Thuesday',
+      name: 'Utorak',
       times: [
         { name: 'Kids BJJ', time: '18:00 - 19:00' },
         { name: 'Kids BJJ', time: '19:00 - 20:00' },
@@ -23,11 +23,11 @@ const Schedule = () => {
       ],
     },
     {
-      name: 'Wendsday',
+      name: 'Sreda',
       times: [{ name: 'Odrasli BJJ', time: '20:00 - 21:30' }],
     },
     {
-      name: 'Thursday',
+      name: 'Četvrtak',
       times: [
         { name: 'Kids BJJ', time: '18:00 - 19:00' },
         { name: 'Kids BJJ', time: '19:00 - 20:00' },
@@ -35,36 +35,36 @@ const Schedule = () => {
       ],
     },
     {
-      name: 'Friday',
+      name: 'Petak',
       times: [{ name: 'Odrasli BJJ', time: '20:00 - 21:30' }],
     },
   ];
 
   const sheduleNS = [
     {
-      name: 'Monday',
+      name: 'Ponedeljak',
       times: [{ name: 'Odrasli BJJ', time: '21:00 - 22:30' }],
     },
     {
-      name: 'Thuesday',
+      name: 'Utorak',
       times: [
         { name: 'Kids BJJ', time: '20:00 - 21:00' },
         { name: 'Odrasli BJJ', time: '21:00 - 22:30' },
       ],
     },
     {
-      name: 'Wendsday',
+      name: 'Sreda',
       times: [{ name: 'Odrasli BJJ', time: '21:00 - 22:30' }],
     },
     {
-      name: 'Thursday',
+      name: 'Četvrtak',
       times: [
         { name: 'Kids BJJ', time: '20:00 - 21:00' },
         { name: 'Odrasli BJJ', time: '21:00 - 22:30' },
       ],
     },
     {
-      name: 'Friday',
+      name: 'Petak',
       times: [
         { name: 'Kids BJJ', time: '20:00 - 21:00' },
         { name: 'Odrasli BJJ', time: '21:00 - 22:30' },
@@ -73,23 +73,23 @@ const Schedule = () => {
   ];
   const sheduleVG = [
     {
-      name: 'Monday',
+      name: 'Ponedeljak',
       times: [{ name: 'Odrasli BJJ', time: '19:00 - 20:30' }],
     },
     {
-      name: 'Thuesday',
+      name: 'Utorak',
       times: [{ name: 'Odrasli BJJ', time: '19:00 - 20:30' }],
     },
     {
-      name: 'Wendsday',
+      name: 'Sreda',
       times: [{ name: 'Odrasli BJJ', time: '19:00 - 20:30' }],
     },
     {
-      name: 'Thursday',
+      name: 'Četvrtak',
       times: [{ name: 'Odrasli BJJ', time: '19:00 - 20:30' }],
     },
     {
-      name: 'Friday',
+      name: 'Petak',
       times: [{ name: 'Odrasli BJJ', time: '19:00 - 20:30' }],
     },
   ];

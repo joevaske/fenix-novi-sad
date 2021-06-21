@@ -3,7 +3,6 @@ import ScheduleViewTime from './ScheduleViewTime';
 import './ScheduleView.scss';
 
 const ScheduleView = ({ schedule, active }) => {
-  console.log(schedule);
   return (
     <>
       {schedule.map((schedul) => (

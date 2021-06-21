@@ -82,7 +82,7 @@ function Service() {
             <h3>PRIVATNI ČASOVI</h3>
             <p>
               Garantovano najbrži napredak! Kontaktirajte nas i zakažite
-              privatni čas!zarn build
+              privatni čas!
             </p>
           </div>
         </div>

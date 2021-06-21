@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaInstagram, FaFacebookF } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const Coach = ({ coach }) => {
   return (
@@ -12,12 +11,22 @@ const Coach = ({ coach }) => {
       <p className='coach__role'>{coach.role}</p>
       <div className='coach__social'>
         <div className='coach__social__icon'>
-          <a href={coach.insta} aria-label='Instagram' target='_blank'>
+          <a
+            href={coach.insta}
+            aria-label='Instagram'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <FaInstagram />
           </a>
         </div>
         <div className='coach__social__icon'>
-          <a href={coach.face} aria-label='Facebook' target='_blank'>
+          <a
+            href={coach.face}
+            aria-label='Facebook'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <FaFacebookF />
           </a>
         </div>

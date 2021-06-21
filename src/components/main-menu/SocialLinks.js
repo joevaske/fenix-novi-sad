@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { ImWhatsapp } from 'react-icons/im';
-import { FaInstagram, FaViber } from 'react-icons/fa';
-import { RiFacebookBoxFill, RiPhoneLine } from 'react-icons/ri';
+import { FaInstagram, FaViber, FaFacebookSquare } from 'react-icons/fa';
+import { RiPhoneLine } from 'react-icons/ri';
 
 const SocialLinks = () => {
   return (
@@ -20,7 +20,7 @@ const SocialLinks = () => {
           href='https://www.facebook.com/FenixBJJAcademy'
           aria-label='Facebook'
         >
-          <RiFacebookBoxFill />
+          <FaFacebookSquare />
         </a>
       </li>
       <li>

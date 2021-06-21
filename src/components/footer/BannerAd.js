@@ -5,11 +5,11 @@ const BannerAd = () => {
   const [bannerCode, setCode] = useState('');
 
   const codes = {
-    1: 'meow',
-    2: 'woof',
-    3: 'moo',
+    1: 'bl',
+    2: 'vg',
+    3: 'ns',
     4: 'baaah',
-    5: 'tweet',
+    5: 'insta',
     6: 'fenix',
     7: 'bjj',
     8: 'banjaluka',
