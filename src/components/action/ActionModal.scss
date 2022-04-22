@@ -1,0 +1,131 @@
+.modalBackground {
+  z-index: 1000;
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.507);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalContainer {
+  padding: 20px;
+  background-color: #fff;
+  width: 100%;
+  margin: auto;
+
+  .titleCloseBtn {
+    text-align: right;
+
+    button {
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .modalFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+
+    button {
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
+  h3 {
+    color: #3a3942;
+  }
+}
+
+.modalForm {
+  padding: 10px;
+
+  .modalFormSection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    p {
+      color: #3a3942;
+      margin-bottom: 10px;
+      letter-spacing: none;
+    }
+
+    .label {
+      font-size: 1.5rem;
+      opacity: 0.7;
+    }
+
+    input,
+    textarea {
+      padding: 10px;
+      font-size: 2rem;
+      color: #3a3942;
+      border: 1px solid #3a3942a4;
+      border-radius: 4px;
+    }
+
+    ::placeholder {
+      color: #3a39427e;
+      font-size: 1.5rem;
+    }
+
+    &__radio {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 5px;
+      margin-bottom: 5px;
+      cursor: pointer;
+
+      label {
+        margin-left: 10px;
+
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.btn-modalForm {
+  display: inline-block;
+  padding: 20px !important;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.btn-modalForm:hover {
+  transform: translateY(1px);
+  opacity: 1;
+}
+.btn-modalForm.cancel {
+  background-color: rgb(240, 113, 113);
+}
+
+.btn-modalForm.confirm {
+  background-color: rgb(153, 240, 113);
+}
+
+@media only screen and (min-width: 768px) {
+  .modalContainer {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .modalContainer {
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .modalContainer {
+    width: 50%;
+  }
+}

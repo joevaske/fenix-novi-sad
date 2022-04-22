@@ -1,74 +1,78 @@
 @import '../../design-tokens/variables.scss';
 
-.form{
-    background-color: rgba($color: $color-white, $alpha: 0.1);
-    padding: 3rem 2rem;
-    margin-left: 1rem;
-    font-size: 2rem;
+.form {
+  background-color: rgba($color: $color-white, $alpha: 0.1);
+  padding: 3rem 2rem;
+  margin-left: 1rem;
+  font-size: 2rem;
 
-    & h3 {
-        background-color: $color-red;
-        padding: 1rem 2rem;
-        text-transform: uppercase;
-        text-align: center;
-        margin-bottom: 3rem;
-    }
-
-    input, textarea, button{
-        width: 100%;
-        font-family: inherit;
-        font-size: inherit;
-        line-height: inherit;
-    }
-    input, textarea {
-        height: 5rem;
-        background-color: $color-black;
-        margin-bottom: 1rem;
-        text-align: center;
-        border: 1px solid $color-gray;
-        &:focus {
-            outline: 2px solid rgba($color: $color-red, $alpha: 0.3)
-        }
-
-    }
-
-    textarea {
-        height: 10rem;
-        resize: none;
-        margin-bottom: 2rem;
-        padding: 1rem;
-    }
-
-    .label {
-        color: rgba($color: $color-white, $alpha: 0.2);
-        display: inline-block;
-        padding-bottom: 0.5rem;
-    }
-}
-
-.btn-form { 
-    color: $color-white;
-    display: inline-block;
-    font-size: 1.8rem;
-    font-weight: 400;  
-    letter-spacing: 0.7px;
-    line-height: 5rem;
-    padding: 0 5rem;
+  & h3 {
+    background-color: $color-red;
+    padding: 1rem 2rem;
     text-transform: uppercase;
-    background: transparent;
-    cursor: pointer;
-    @include transitionEase;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
 
-    &:hover {
-        border: 3px solid $color-red;
-        color: $color-red;
-        transform: translateY(1px);
+  input,
+  textarea,
+  button {
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  input,
+  textarea {
+    height: 5rem;
+    background-color: $color-black;
+    margin-bottom: 1rem;
+    text-align: center;
+    border: 1px solid $color-gray;
+    &:focus {
+      outline: 2px solid rgba($color: $color-red, $alpha: 0.3);
     }
+  }
+
+  textarea {
+    height: 10rem;
+    resize: none;
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+
+  .label {
+    color: rgba($color: $color-white, $alpha: 0.2);
+    display: inline-block;
+    padding-bottom: 0.5rem;
+  }
 }
-input[type=submit] {
-    border: 2px solid $color-white;
-    height: 7rem;
-} 
-input[type=text], input[type=email], textarea {
-    color: rgba($color: $color-white, $alpha: 0.7);
+
+.btn-form {
+  color: $color-white;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  line-height: 5rem;
+  padding: 0 5rem;
+  text-transform: uppercase;
+  background: transparent;
+  cursor: pointer;
+  @include transitionEase;
+
+  &:hover {
+    border: 3px solid $color-red;
+    color: $color-red;
+    transform: translateY(1px);
+  }
+}
+input[type='submit'] {
+  border: 2px solid $color-white;
+  height: 7rem;
+}
+input[type='text'],
+input[type='email'],
+textarea {
+  color: rgba($color: $color-white, $alpha: 0.7);
 }

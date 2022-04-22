@@ -12,9 +12,9 @@ const About = () => {
       <div className='about__desc'>
         <h2>Dobrodošli </h2>
         <p>
-          Fenix tim pruža vrhunski ambijent i uslove u kojima vežbači, bez
-          obzira na prethodno iskustvo, godine ili kondiciju, uče principe
-          borbe, pre svega brazilsku džiudžicu, grepling i MMA.
+          Fenix BJJ Academy pruža vrhunski ambijent i uslove u kojima vežbači
+          bez obzira na prethodno iskustvo, godine ili kondiciju, izučavaju
+          principe borbe, pre svega brazilske džiudžice, greplinga i MMA.
         </p>
         <p>
           Takođe nudimo prilagođene programe samoodbrane u okviru brazilske

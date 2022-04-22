@@ -8,7 +8,7 @@ const AboutForm = () => {
 
     emailjs
       .sendForm(
-        'service_2ucvsjp',
+        'service_dn3q9iw',
         'template_653it8o',
         e.target,
         'user_hlIIfb6gy0PVZsTBKatDQ'
@@ -21,6 +21,7 @@ const AboutForm = () => {
           console.log(error.text);
         }
       );
+
     e.target.reset();
   };
   return (

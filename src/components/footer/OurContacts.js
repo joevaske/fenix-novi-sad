@@ -11,13 +11,13 @@ const OurContacts = () => {
       trainingPlace: ' Spens',
       phone: '+ 381 63 821 83 06',
     },
-    {
+    /*  {
       id: 2,
       location: 'Banja Luka',
-      address: 'Bul Vojvode Petra Bojovića 1A',
-      trainingPlace: ' Kampus',
-      phone: '+ 387 66 243 105',
-    },
+      address: 'Veljka Mlađenovića BB',
+      trainingPlace: ' Incel',
+      phone: '+ 387 65 635 061',
+    }, */
     {
       id: 3,
       location: 'Visegrad',

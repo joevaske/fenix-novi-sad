@@ -1,0 +1,42 @@
+.action {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 10rem 0;
+
+  &__text {
+    padding: 20px;
+
+    p {
+      line-height: 3rem;
+      opacity: 0.8;
+    }
+  }
+}
+.btn-action {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 25px;
+  background-color: #151515;
+  border: 1px solid #d22929;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.btn-action:hover {
+  transform: translateY(1px);
+  opacity: 1;
+}
+
+@media only screen and (min-width: 992px) {
+  .action {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 10rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+}

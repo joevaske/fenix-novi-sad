@@ -9,12 +9,12 @@ const WorkingHours = () => {
       trainingDays: ' Ponedeljak - Petak',
       trainingTime: ' 19:00 - 23:00 ',
     },
-    {
+    /*  {
       id: 2,
       location: 'Banja Luka',
       trainingDays: ' Ponedeljak - Petak',
       trainingTime: ' 18:00 - 22:00 ',
-    },
+    }, */
     {
       id: 3,
       location: 'Visegrad',

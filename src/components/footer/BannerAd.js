@@ -27,14 +27,14 @@ const BannerAd = () => {
   };
 
   return (
-    <div className='banner-ad' onClick={setCodeNum}>
-      <h2 className='banner-ad__head'>
-        Uzmi svojih <span className='banner-ad__head__price'>10%</span> POPUSTA
+    <div className='banner__ad' onClick={setCodeNum}>
+      <h2 className='banner__ad__head'>
+        Uzmi svojih <span className='banner__ad__head__price'>10%</span> POPUSTA
       </h2>
-      <h3 className='banner-ad__title'>BRAZILIAN JIU JITSU MESEC</h3>
-      <p className='banner-ad__code'>Generate code on "Click" </p>
+      <h3 className='banner__ad__title'>BRAZILIAN JIU JITSU MESEC</h3>
+      <p className='banner__ad__code'>Generate code on "Click" </p>
       <h4>{bannerCode === ' ' ? 'Bad code! Try Again' : bannerCode}</h4>
-      <p className='banner-ad__code'>
+      <p className='banner__ad__code'>
         Uslikajte ili snimite ekran i pokažite nam na prvom treningu!
       </p>
     </div>

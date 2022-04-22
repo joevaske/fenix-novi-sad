@@ -21,14 +21,14 @@ const WhyUs = () => {
           Naša vizija je stvaranje vrhunskih sportista i zdravih pojedinaca,
           članova našeg društva kroz sportske aktivnosti!
         </p>
-        <p>VAŠ LIČNI USPEH JE NAŠE ZADOVOLJSTVO! PRIDRUŽITE NAM SE!</p>
+
         <div className='line'></div>
         <div className='why-us__container__row'>
           <h3>
             <AiOutlineHistory className='icon' />
             10 GODINA POSTOJANJA
           </h3>
-          <p>Fenix akademija je osnovana 2011. godine.</p>
+          <p>Fenix akademija je osnovana 2011. godine. u Banjaluci</p>
         </div>
         <div className='why-us__container__row'>
           <h3>
@@ -43,7 +43,8 @@ const WhyUs = () => {
             SPORTSKA ATMOSFERA
           </h3>
           <p>
-            Pridružujete se organizaciji čiji se članovi međusobno podupiru i
+            Pridružujete se organizaciji čiji se članovi međusobno podupiru i{' '}
+            <br />
             rade u vrhunskoj sportskoj atmosferi!
           </p>
         </div>

@@ -1,111 +1,105 @@
 @import '../../design-tokens/variables.scss';
 
-.locations{
+.locations {
+  padding: 10rem 0;
 
-    padding: 10rem 0;
+  position: relative;
+  height: 90rem;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../images/backgrounds/bg-04.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
 
-    position:relative;
-    height: 90rem;
-    width: 100vw;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../../images/backgrounds/bg-04.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
- 
-    & h2 {
-        margin-bottom: 5rem;
-        grid-area: head;
+  & h2 {
+    margin-bottom: 5rem;
+    grid-area: head;
+  }
+
+  text-align: center;
+
+  .location {
+    position: relative;
+    border: 5px solid rgba($color: $color-white, $alpha: 0.7);
+    margin: 3rem 1rem;
+    padding: 3rem 2rem;
+    @include transitionEase;
+    grid-area: contact;
+
+    &__tel {
+      color: $color-red;
     }
-    
-    text-align: center;
-  
-    .location {
-        position: relative;
-        border: 5px solid rgba($color: $color-white, $alpha: 0.7);
-        margin: 3rem 1rem;
-        padding: 3rem 2rem;
+
+    &__phone {
+      position: absolute;
+      background-color: $color-white;
+      border-radius: 50%;
+      color: $color-black;
+      height: 5rem;
+      width: 5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -2.5rem;
+
+      margin: auto;
+      text-align: center;
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      & a {
+        color: $color-black;
         @include transitionEase;
-        grid-area: contact;
-
-        &__tel {
-            color: $color-red;
-        }
-
-        &__phone {
-            position: absolute;
-            background-color: $color-white;
-            border-radius: 50%;
-            color: $color-black;
-            height: 5rem;
-            width: 5rem;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: -2.5rem;
-            
-            margin: auto;
-            text-align: center;
-            font-size: 2rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-          
-
-            & a {
-                color: $color-black;
-                @include transitionEase;
-                &:hover {
-                    color: $color-red;
-                }
-            }
-
-
-        }
         &:hover {
-            background: rgba($color: $color-white, $alpha: 0.3);
+          color: $color-red;
         }
+      }
     }
-
-   
+    &:hover {
+      background: rgba($color: $color-white, $alpha: 0.3);
+    }
+  }
 }
 
-@media only screen and (min-width: 400px) { 
- .locations{
-     &__container{
-        width: 90vw;
-        margin: 0 auto;
-     }
- }
+@media only screen and (min-width: 400px) {
+  .locations {
+    &__container {
+      width: 90vw;
+      margin: 0 auto;
+    }
+  }
 }
 
-@media only screen and (min-width: 1200px) { 
-    .locations{
-        height: 60rem;
-        &__container{
-           width: 100vw;
-           margin: 0 auto;
-           display: flex;
-           justify-content: space-around;
-        }
-        .location {
-            width: 370px;
-        }
+@media only screen and (min-width: 1200px) {
+  .locations {
+    height: 60rem;
+    &__container {
+      width: 100vw;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
     }
-   }
+    .location {
+      width: 370px;
+    }
+  }
+}
 
-   @media only screen and (min-width: 1400px) { 
-    .locations{
-    
-        &__container{
-           width: 80vw;
-           margin: 0 auto;
-           display: flex;
-           justify-content: space-around;
-        }
-        .location {
-            width: 400px;
-        }
+@media only screen and (min-width: 1400px) {
+  .locations {
+    &__container {
+      width: 80vw;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
     }
-   }
+    .location {
+      width: 400px;
+    }
+  }
+}

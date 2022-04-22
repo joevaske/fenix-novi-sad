@@ -4,12 +4,12 @@ import Location from './Location';
 
 const Locations = () => {
   const adress = [
-    {
+    /*  {
       id: 1,
       name: 'FENIX BANJA LUKA',
-      street: 'Vojvode Petra Bojovića 1A ',
-      phone: '+387 66 234 105',
-    },
+      street: 'Veljka Mlađenovića BB - INCEL ',
+      phone: '+387 65 635 061',
+    }, */
     {
       id: 2,
       name: 'FENIX NOVI SAD',
@@ -20,7 +20,7 @@ const Locations = () => {
       id: 3,
       name: 'FENIX VIŠEGRAD',
       street: 'Trg Palih boraca bb',
-      phone: '+387 66 181 824',
+      phone: '+387 65 525 716',
     },
   ];
 
