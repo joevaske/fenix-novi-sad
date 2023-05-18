@@ -1,9 +1,8 @@
 import coach1 from '../../images/coaches/arlisson-kiki-melo-fenixbjjacademy.jpg';
 import coach2 from '../../images/coaches/djordje-vasic-fenixbjjacademy.jpg';
 import coach3 from '../../images/coaches/radenko-kalajdzic-fenixbjjacademy.jpg';
-import coach4 from '../../images/coaches/luka-vasic-fenixbjjacademy.jpg';
-
-/* import coach5 from '../../images/coaches/rajko-cecez-fenixbjjacademy.jpg';
+/* import coach4 from '../../images/coaches/luka-vasic-fenixbjjacademy.jpg';
+import coach5 from '../../images/coaches/rajko-cecez-fenixbjjacademy.jpg';
 import coach6 from '../../images/coaches/nemanja-raus-fenixbjjacademy.jpg';
 import coach7 from '../../images/coaches/amir-ramic-fenixbjjacademy.jpg'; */
 
@@ -33,7 +32,7 @@ export const coaches = [
     insta: 'https://www.instagram.com/fenix_bjjacademy/',
     face: 'https://www.facebook.com/vasic.djordje',
   },
-  {
+  /*  {
     id: 4,
     name: 'Luka Vasić',
     src: coach4,
@@ -41,7 +40,7 @@ export const coaches = [
     insta: 'https://www.instagram.com/bas_celikk/',
     face: 'https://www.facebook.com/lvasic1',
   },
-  /* {
+ {
     id: 5,
     name: 'Rajko Ćećez',
     src: coach5,

@@ -5,14 +5,14 @@ const BannerAd = () => {
   const [bannerCode, setCode] = useState('');
 
   const codes = {
-    1: 'bl',
-    2: 'vg',
-    3: 'ns',
-    4: 'baaah',
-    5: 'insta',
+    1: 'berimbolo',
+    2: 'triangle',
+    3: 'armbar',
+    4: 'spideguard',
+    5: 'delariva',
     6: 'fenix',
     7: 'bjj',
-    8: 'banjaluka',
+    8: 'rnc',
     9: 'novisad',
     10: 'visegrad',
   };

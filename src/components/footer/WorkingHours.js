@@ -15,12 +15,12 @@ const WorkingHours = () => {
       trainingDays: ' Ponedeljak - Petak',
       trainingTime: ' 18:00 - 22:00 ',
     }, */
-    {
+    /*   {
       id: 3,
       location: 'Visegrad',
       trainingDays: ' Ponedeljak - Petak',
       trainingTime: ' 19:00 - 22:00 ',
-    },
+    }, */
   ];
   return (
     <div className='working-hours'>

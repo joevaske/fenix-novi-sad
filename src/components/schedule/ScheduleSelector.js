@@ -10,9 +10,9 @@ const ScheduleSelector = (props) => {
       <div onClick={props.setNs} className='schedule-selector__btn'>
         Novi Sad
       </div>
-      <div onClick={props.setVg} className='schedule-selector__btn'>
+      {/*   <div onClick={props.setVg} className='schedule-selector__btn'>
         Višegrad
-      </div>
+      </div> */}
     </div>
   );
 };

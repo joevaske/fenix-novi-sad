@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const FooterBottom = () => {
-    return (
-        <div className="footer-bottom">
-            <p>&copy; FENIX BJJ ACADEMY - 2021 | Created by CodeArt</p>
-        </div>
-    )
-}
+  const currentYear = new Date().getFullYear();
+  return (
+    <div className='footer-bottom'>
+      <p>&copy; FENIX BJJ ACADEMY - {currentYear} | Created by CodeArt</p>
+    </div>
+  );
+};
 
-export default FooterBottom
+export default FooterBottom;

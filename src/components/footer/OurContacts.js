@@ -7,8 +7,8 @@ const OurContacts = () => {
     {
       id: 1,
       location: 'Novi Sad',
-      address: 'Sutjeska 6',
-      trainingPlace: ' Spens',
+      address: 'Alberta Tome 2a',
+      trainingPlace: ' Fenix House',
       phone: '+ 381 63 821 83 06',
     },
     /*  {
@@ -18,13 +18,13 @@ const OurContacts = () => {
       trainingPlace: ' Incel',
       phone: '+ 387 65 635 061',
     }, */
-    {
+    /*   {
       id: 3,
       location: 'Visegrad',
       address: 'Trg Palih Boraca bb',
       trainingPlace: ' Robna Kuća',
       phone: '+ 387 66 181 824',
-    },
+    }, */
   ];
   return (
     <div className='our-contacts'>

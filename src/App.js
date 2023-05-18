@@ -11,7 +11,7 @@ import Locations from './components/locations/Locations';
 import ToTop from './components/to-top/ToTop';
 import LoadingScreen from './components/loading/LoadingScreen';
 import Schedule from './components/schedule/Schedule';
-import Action from './components/action/Action';
+//import Action from './components/action/Action';
 
 const Services = lazy(() => import('./components/services/Services'));
 const GalleryShow = lazy(() => import('./components/gallery/GalleryShow'));
@@ -24,7 +24,7 @@ function App() {
       <Suspense fallback={<LoadingScreen />}>
         <div className='App'>
           <Header />
-          <Action />
+          {/* <Action /> */}
           <Route path='/' component={About} />
           <Route path='/' component={Services} />
           <WhyUs />

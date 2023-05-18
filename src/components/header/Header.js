@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Header.scss';
 
-import logo from '../../images/Fenix-logo.png';
+import logo from '../../images/logo.png';
 import MainMenu from '../main-menu/MainMenu';
 
 const Header = () => {

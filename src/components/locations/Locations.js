@@ -13,20 +13,20 @@ const Locations = () => {
     {
       id: 2,
       name: 'FENIX NOVI SAD',
-      street: 'Sutjeska 2 - SPENS 1 sprat ',
+      street: 'Alberta Tome 2a',
       phone: '+381 63 821 8306',
     },
-    {
+    /*   {
       id: 3,
       name: 'FENIX VIŠEGRAD',
       street: 'Trg Palih boraca bb',
       phone: '+387 65 525 716',
-    },
+    }, */
   ];
 
   return (
     <div className='locations'>
-      <h2>Lokacije</h2>
+      <h2>Lokacija</h2>
       <div className='locations__container'>
         {adress.map((addr) => (
           <Location key={addr.id} addr={addr} />
