@@ -10,6 +10,10 @@ import img9 from '../../images/gallery/9.jpg';
 import img10 from '../../images/gallery/10.jpg';
 import img11 from '../../images/gallery/11.jpg';
 import img12 from '../../images/gallery/12.jpg';
+import img13 from '../../images/gallery/13.jpg';
+import img14 from '../../images/gallery/14.jpg';
+import img15 from '../../images/gallery/15.jpg';
+import img16 from '../../images/gallery/16.jpg';
 
 export const photos = [
   {
@@ -81,6 +85,30 @@ export const photos = [
   {
     id: 12,
     src: img12,
+    width: 4,
+    height: 3,
+  },
+  {
+    id: 13,
+    src: img13,
+    width: 4,
+    height: 3,
+  },
+  {
+    id: 14,
+    src: img14,
+    width: 4,
+    height: 3,
+  },
+  {
+    id: 15,
+    src: img15,
+    width: 4,
+    height: 3,
+  },
+  {
+    id: 16,
+    src: img16,
     width: 4,
     height: 3,
   },
