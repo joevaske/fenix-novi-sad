@@ -28,14 +28,14 @@ const WhyUs = () => {
             <AiOutlineHistory className='icon' />
             10 GODINA POSTOJANJA
           </h3>
-          <p>Fenix akademija je osnovana 2011. godine. u Banjaluci</p>
+          <p>Fenix akademija je osnovana 2011. godine.</p>
         </div>
         <div className='why-us__container__row'>
           <h3>
             <GiPriceTag className='icon' />
             POVOLJNA CENA
           </h3>
-          <p>Za samo 25 EUR dobijate 20-25 treninga mesečno.</p>
+          <p>Za samo 35 EUR dobijate 20-25 treninga mesečno.</p>
         </div>
         <div className='why-us__container__row'>
           <h3>

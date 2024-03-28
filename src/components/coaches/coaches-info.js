@@ -1,5 +1,5 @@
 import coach1 from '../../images/coaches/arlisson-kiki-melo-fenixbjjacademy.jpg';
-import coach2 from '../../images/coaches/djordje-vasic-fenixbjjacademy.jpg';
+import coach2 from '../../images/coaches/djordje-vasic-fenixbjjacademy-1.jpg';
 import coach3 from '../../images/coaches/radenko-kalajdzic-fenixbjjacademy.jpg';
 /* import coach4 from '../../images/coaches/luka-vasic-fenixbjjacademy.jpg';
 import coach5 from '../../images/coaches/rajko-cecez-fenixbjjacademy.jpg';
@@ -7,7 +7,7 @@ import coach6 from '../../images/coaches/nemanja-raus-fenixbjjacademy.jpg';
 import coach7 from '../../images/coaches/amir-ramic-fenixbjjacademy.jpg'; */
 
 export const coaches = [
-  {
+  /*   {
     id: 1,
     name: 'Arlisson Kiki Melo',
     role: 'Mentor, Profesor',
@@ -15,23 +15,24 @@ export const coaches = [
     insta: 'https://www.instagram.com/kikimelobjj/?hl=sr',
     face: 'https://www.facebook.com/arlisson',
     heros: 'https://www.bjjheroes.com/bjj-fighters/arlisson-kiki-melo',
-  },
+  }, */
   {
-    id: 2,
+    id: 1,
     name: 'Đorđe Vasić',
     src: coach2,
     role: 'Osnivač, Profesor',
+    desc: 'BJJ Black Belt under <a href="https://www.bjjheroes.com/bjj-fighters/arlisson-kiki-melo" target="_blank">Arlisson Kiki Melo</a>',
     insta: 'https://www.instagram.com/fenix_bjjacademy/',
     face: 'https://www.facebook.com/vasic.djordje',
   },
-  {
+  /*   {
     id: 3,
     name: 'Radenko Kalajdžić',
     src: coach3,
     role: 'Mentor, Profesor',
     insta: 'https://www.instagram.com/fenix_bjjacademy/',
     face: 'https://www.facebook.com/vasic.djordje',
-  },
+  }, */
   /*  {
     id: 4,
     name: 'Luka Vasić',

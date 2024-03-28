@@ -9,6 +9,7 @@ const Coach = ({ coach }) => {
       </div>
       <h2 className='coach__name'> {coach.name}</h2>
       <p className='coach__role'>{coach.role}</p>
+
       <div className='coach__social'>
         <div className='coach__social__icon'>
           <a

@@ -14,7 +14,7 @@ const BannerAd = () => {
     7: 'bjj',
     8: 'rnc',
     9: 'novisad',
-    10: 'visegrad',
+    10: 'leglock',
   };
 
   const setCodeNum = () => {

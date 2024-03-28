@@ -51,41 +51,39 @@ const Schedule = () => {
     {
       name: 'Ponedeljak',
       times: [
-        { name: 'Jutarnji trening - BJJ', time: '07:30 - 08:30' },
-        { name: 'BJJ Intro', time: '19:00 - 20:00' },
-        { name: 'BJJ Obojeni/Beli', time: '20:00 - 21:30' },
+        { name: 'BJJ - NO GI', time: '07:30 - 08:30' },
+        { name: 'BJJ Basic', time: '19:00 - 20:00' },
+        { name: 'BJJ Advanced', time: '20:00 - 21:30' },
       ],
     },
     {
       name: 'Utorak',
       times: [
-        { name: 'Jutarnji trening - BJJ', time: '07:30 - 08:30' },
         { name: 'BJJ Deca ', time: '19:00 - 20:15' },
-        { name: 'BJJ Obojeni/Beli ', time: '20:00 - 21:30' },
+        { name: 'BJJ Advanced ', time: '20:00 - 21:30' },
       ],
     },
     {
       name: 'Sreda',
       times: [
-        { name: 'Jutarnji trening - BJJ', time: '07:30 - 08:30' },
-        { name: 'BJJ Intro ', time: '19:00 - 20:00' },
-        { name: 'BJJ Obojeni/Beli ', time: '20:00 - 21:30' },
+        { name: 'BJJ - NO GI', time: '07:30 - 08:30' },
+        { name: 'BJJ Basic ', time: '19:00 - 20:00' },
+        { name: 'BJJ NO GI ', time: '20:00 - 21:30' },
       ],
     },
     {
       name: 'Četvrtak',
       times: [
-        { name: 'Jutarnji trening - BJJ', time: '07:30 - 08:30' },
         { name: 'BJJ Deca ', time: '19:00 - 20:15' },
-        { name: 'BJJ Obojeni/Beli ', time: '20:00 - 21:30' },
+        { name: 'BJJ Advanced ', time: '20:00 - 21:30' },
       ],
     },
     {
       name: 'Petak',
       times: [
-        { name: 'Jutarnji trening - BJJ', time: '07:30 - 08:30' },
-        { name: 'BJJ Intro ', time: '19:00 - 20:00' },
-        { name: 'BJJ Obojeni/Beli ', time: '20:00 - 21:30' },
+        { name: 'BJJ - NO GI', time: '07:30 - 08:30' },
+        { name: 'BJJ Basic ', time: '19:00 - 20:00' },
+        { name: 'BJJ Advanced ', time: '20:00 - 21:30' },
       ],
     },
   ];
