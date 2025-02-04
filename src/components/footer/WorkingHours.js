@@ -6,8 +6,8 @@ const WorkingHours = () => {
     {
       id: 1,
       location: 'Novi Sad',
-      trainingDays: ' Ponedeljak - Petak',
-      trainingTime: ' 07:30 - 22:00 ',
+      trainingDays: ' Ponedeljak - Subota',
+      trainingTime: ' 07:20 - 22:00 ',
     },
     /*  {
       id: 2,

@@ -6,7 +6,10 @@ const ScheduleViewTime = ({ times }) => {
     <div className='schedule-view__time'>
       {times.map((time) => (
         <Fragment key={time.name}>
-          <p>{time.name}</p>
+          <p>
+            {time.name}
+            <span>- {time.desc} -</span>
+          </p>
           <p className='schedule-view__time-count'>{time.time}</p>
         </Fragment>
       ))}

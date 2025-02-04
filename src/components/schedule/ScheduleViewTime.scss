@@ -1,3 +1,13 @@
 .schedule-view__time-count {
   text-align: right;
 }
+.schedule-view__time {
+  p {
+    span {
+      display: block;
+      font-size: 12px;
+      font-weight: 400;
+      opacity: 0.6;
+    }
+  }
+}
